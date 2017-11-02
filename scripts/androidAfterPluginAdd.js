@@ -33,7 +33,8 @@ module.exports = function(context) {
         process.stdout.write(err);
     }
   }
-  var gsPaths = ["google-services.json", "platforms/android/assets/www/google-services.json"];
+  //var gsPaths = ["google-services.json", "platforms/android/assets/www/google-services.json"];
+  var gsPaths = [];
 
   for (var i = 0; i < gsPaths.length; i++) {
     process.stdout.write(gsPaths[i]);
